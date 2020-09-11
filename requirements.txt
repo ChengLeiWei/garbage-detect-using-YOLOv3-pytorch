@@ -1,0 +1,32 @@
+certifi==2020.6.20
+cloudpickle==1.4.1
+cycler==0.10.0
+cytoolz==0.10.1
+dask @ file:///tmp/build/80754af9/dask-core_1592842333140/work
+decorator==4.4.2
+freetype-py==2.1.0.post1
+imageio==2.8.0
+kiwisolver==1.2.0
+matplotlib @ file:///tmp/build/80754af9/matplotlib-base_1592846017414/work
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+networkx==2.4
+numpy==1.18.5
+olefile==0.46
+opencv-python==4.2.0.34
+Pillow==7.1.2
+pycocotools==2.0.0
+pyparsing==2.4.7
+python-dateutil==2.8.1
+PyWavelets==1.1.1
+PyYAML==5.3.1
+scikit-image==0.16.2
+scipy @ file:///tmp/build/80754af9/scipy_1592930510235/work
+six==1.15.0
+toolz==0.10.0
+torch==1.4.0
+torchsummary==1.5.1
+torchvision==0.5.0
+tornado==6.0.4
+tqdm==4.45.0

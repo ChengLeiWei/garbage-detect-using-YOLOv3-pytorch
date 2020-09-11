@@ -1,0 +1,142 @@
+**********解析的模型字典**********
+0 {'type': 'net', 'batch': 16, 'subdivisions': 1, 'width': 416, 'height': 416, 'channels': 3, 'momentum': '0.9', 'decay': '0.0005', 'angle': 0, 'saturation': '1.5', 'exposure': '1.5', 'hue': '.1', 'learning_rate': '0.001', 'burn_in': 1000, 'max_batches': 500200, 'policy': 'steps', 'steps': '400000,450000', 'scales': '.1,.1'}
+1 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 32, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+2 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 64, 'size': 3, 'stride': 2, 'pad': 1, 'activation': 'leaky'}
+3 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 32, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+4 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 64, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+5 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+6 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 3, 'stride': 2, 'pad': 1, 'activation': 'leaky'}
+7 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 64, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+8 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+9 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+10 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 64, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+11 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+12 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+13 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 3, 'stride': 2, 'pad': 1, 'activation': 'leaky'}
+14 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+15 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+16 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+17 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+18 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+19 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+20 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+21 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+22 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+23 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+24 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+25 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+26 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+27 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+28 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+29 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+30 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+31 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+32 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+33 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+34 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+35 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+36 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+37 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+38 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 3, 'stride': 2, 'pad': 1, 'activation': 'leaky'}
+39 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+40 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+41 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+42 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+43 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+44 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+45 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+46 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+47 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+48 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+49 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+50 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+51 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+52 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+53 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+54 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+55 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+56 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+57 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+58 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+59 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+60 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+61 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+62 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+63 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 1024, 'size': 3, 'stride': 2, 'pad': 1, 'activation': 'leaky'}
+64 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+65 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 1024, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+66 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+67 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+68 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 1024, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+69 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+70 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+71 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 1024, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+72 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+73 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+74 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 1024, 'size': 3, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+75 {'type': 'shortcut', 'from': [-3], 'activation': 'linear'}
+76 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+77 {'type': 'convolutional', 'batch_normalize': 1, 'size': 3, 'stride': 1, 'pad': 1, 'filters': 1024, 'activation': 'leaky'}
+78 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+79 {'type': 'convolutional', 'batch_normalize': 1, 'size': 3, 'stride': 1, 'pad': 1, 'filters': 1024, 'activation': 'leaky'}
+80 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 512, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+81 {'type': 'convolutional', 'batch_normalize': 1, 'size': 3, 'stride': 1, 'pad': 1, 'filters': 1024, 'activation': 'leaky'}
+82 {'type': 'convolutional', 'batch_normalize': 0, 'size': 1, 'stride': 1, 'pad': 1, 'filters': 1254, 'activation': 'linear'}
+83 {'type': 'yolo', 'mask': [6, 7, 8, 9, 10, 11], 'anchors': array([[         18,          20],
+       [         39,          35],
+       [         41,          65],
+       [         61,          50],
+       [         75,          78],
+       [        107,          56],
+       [        100,          93],
+       [         69,         136],
+       [        116,         131],
+       [        158,         101],
+       [        159,         163],
+       [        222,         210]]), 'classes': 204, 'num': 9, 'jitter': '.3', 'ignore_thresh': '.7', 'truth_thresh': 1, 'random': 1}
+84 {'type': 'route', 'layers': [-4]}
+85 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+86 {'type': 'upsample', 'stride': 2}
+87 {'type': 'route', 'layers': [-1]}
+88 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+89 {'type': 'convolutional', 'batch_normalize': 1, 'size': 3, 'stride': 1, 'pad': 1, 'filters': 512, 'activation': 'leaky'}
+90 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+91 {'type': 'convolutional', 'batch_normalize': 1, 'size': 3, 'stride': 1, 'pad': 1, 'filters': 512, 'activation': 'leaky'}
+92 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 256, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+93 {'type': 'convolutional', 'batch_normalize': 1, 'size': 3, 'stride': 1, 'pad': 1, 'filters': 512, 'activation': 'leaky'}
+94 {'type': 'convolutional', 'batch_normalize': 0, 'size': 1, 'stride': 1, 'pad': 1, 'filters': 1254, 'activation': 'linear'}
+95 {'type': 'yolo', 'mask': [4, 5, 6, 7, 8, 9], 'anchors': array([[         18,          20],
+       [         39,          35],
+       [         41,          65],
+       [         61,          50],
+       [         75,          78],
+       [        107,          56],
+       [        100,          93],
+       [         69,         136],
+       [        116,         131],
+       [        158,         101],
+       [        159,         163],
+       [        222,         210]]), 'classes': 204, 'num': 9, 'jitter': '.3', 'ignore_thresh': '.7', 'truth_thresh': 1, 'random': 1}
+96 {'type': 'route', 'layers': [-4]}
+97 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+98 {'type': 'upsample', 'stride': 2}
+99 {'type': 'route', 'layers': [-1, 36]}
+100 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+101 {'type': 'convolutional', 'batch_normalize': 1, 'size': 3, 'stride': 1, 'pad': 1, 'filters': 256, 'activation': 'leaky'}
+102 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+103 {'type': 'convolutional', 'batch_normalize': 1, 'size': 3, 'stride': 1, 'pad': 1, 'filters': 256, 'activation': 'leaky'}
+104 {'type': 'convolutional', 'batch_normalize': 1, 'filters': 128, 'size': 1, 'stride': 1, 'pad': 1, 'activation': 'leaky'}
+105 {'type': 'convolutional', 'batch_normalize': 1, 'size': 3, 'stride': 1, 'pad': 1, 'filters': 256, 'activation': 'leaky'}
+106 {'type': 'convolutional', 'batch_normalize': 0, 'size': 1, 'stride': 1, 'pad': 1, 'filters': 836, 'activation': 'linear'}
+107 {'type': 'yolo', 'mask': [0, 1, 2, 3], 'anchors': array([[         18,          20],
+       [         39,          35],
+       [         41,          65],
+       [         61,          50],
+       [         75,          78],
+       [        107,          56],
+       [        100,          93],
+       [         69,         136],
+       [        116,         131],
+       [        158,         101],
+       [        159,         163],
+       [        222,         210]]), 'classes': 204, 'num': 9, 'jitter': '.3', 'ignore_thresh': '.7', 'truth_thresh': 1, 'random': 1}
