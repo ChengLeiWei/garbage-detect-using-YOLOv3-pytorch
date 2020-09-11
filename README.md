@@ -2,7 +2,7 @@
 
 这个仓库包含的是基于u版（ultralytics）的Pytorch YOLOv3模型，笔者使用的是2020年4月25日更新的版本，并在原版的YOLOv3的基础上，进行了custom优化，如在YOLO的neck增加RFB模型、ECBAM模型等，同时对YOLO的FPN连接方式做了更改（原始的FPN和笔者所加的模块存在一些冲突，会降mAP），具体可以参考项目中cfg/文件夹下的yolov3-haihua-assistant-35-rfbs-61-rfbs-distance-1-to-head.cfg.
 
-当然，笔者所做的优化一定存在可以继续优化的空间，如果你发现一些错误和新的创新点，欢迎start并联系我！
+当然，笔者所做的优化一定存在可以继续优化的空间，如果你发现一些错误和新的创新点，欢迎star并联系我！
 
 # 深度学习环境要求
 
